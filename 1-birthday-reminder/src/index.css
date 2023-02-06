@@ -1,13 +1,67 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: rgb(196, 37, 244);
 }
+.card{
+  height:650px;
+  width:350px;
+  background-color: white;
+  display: grid;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  margin: 40px auto;
+}
+.card1{
+  height:200px;
+  width:350px;
+  background-color: white;
+  border-radius: 20px;
+  display: grid;
+  margin: 40px auto;
+}
+.dataImg {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow:.5em;
+}
+.detail{
+  
+   display: flex;    
+   margin:10px; 
+
+   
+}
+.h3{
+  padding-right: 50px;
+}
+.noData{
+  font-size: 20px;
+  margin: 30px auto;
+ 
+  align-items: center;
+}
+.btn{
+  background-color: rgb(202, 65, 244);
+  height: 30px;
+  width: 120px;
+  margin-left: 90px;
+  border-radius: 10px;
+}
+.btnShow{
+  background-color: rgb(202, 65, 244);
+  height: 30px;
+  width: 120px;
+  margin-left: 100px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.btn:hover{
+  background-color:rgb(247, 147, 223);
+  cursor: pointer;
+}
+.btnShow:hover{
+  background-color:rgb(247, 147, 223);
+  cursor: pointer;
 }
