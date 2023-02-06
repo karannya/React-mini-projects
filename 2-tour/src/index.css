@@ -1,13 +1,89 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0 ;
+  padding: 0;
+  
+  
+}
+.loading {
+  text-align: center;
+}
+.showData{
+  display: grid;
+  margin: 40px auto;
+  
+  padding: 20px;
+  height: 300px;
+  width:500px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.showImg{
+  width: 500px;
+  height: 350px;
+}
+.showName{
+  display: flex;
+  justify-content: space-between;
+}
+.showInfo{
+
+  display: block;
+  
+  padding: 0.5px;
+  text-align: justify;
+  margin: 1em 0 0 0;
+
+  line-height: 1.4; 
+} 
+.heading{
+  text-align: center;
+}
+.btnFetch{
+  background-color: rgb(174, 244, 142);
+  height: 30px;
+  width: 120px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.btnRemove{
+  background-color: rgb(250, 249, 245);
+  height: 30px;
+  width: 120px;
+  margin-left: 90px;
+  border-radius: 10px;
+  border-color: red;
+  margin-bottom: 20px;
+}
+.btnShow{
+  background-color:white;
+  height: 30px;
+  width: 120px;
+  border: none;
+outline:none;
+ color: blueviolet;
+ font-size: 15px;
+}
+.btnFetch:hover{
+  background-color: aquamarine;
+  cursor:pointer;
+}
+
+.btnShow:hover{
+
+  cursor:pointer;
+}
+.btnRemove:hover{
+  background-color: rgb(245, 192, 173);
+  cursor:pointer;
+}
+.getData{
+  display: flex;
+  margin: 40px auto;
+  height:200px;
+  width:400px;
+  text-align: center;
 }
